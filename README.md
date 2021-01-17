@@ -1,4 +1,5 @@
-#AI 106393 Spring 2021: Course Repository
+#AI 106393 Spring 2021: Course Repository#
+
 ###PROJECT MEMBERS###
 StdID | Name
 ------------ | -------------
