@@ -1,15 +1,16 @@
+## AI 106393 Spring 2021: Course Repository ##
 
-#DM 109 Fall 2020: Course Repository#
-###PROJECT MEMBERS###
+### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
-**12345** | **Amjad Majid** <!--this is the group leader in bold-->
-54321 | Sajid Rashid
-19283 | Tipu Pitu
+**64170** | **Hamza Khalid** <!--this is the group leader in bold-->
+62210 | Muhammad Daniyal
+62447 | Saad Khan
 <!-- Replace name and student ids with acutally group member names and ids-->
 
-## Description ##
-This repository contains assignments and project submitted to DM course offered in Fall 2020 at PafKiet.
+### Description ###
+This repository contains project which will be submitted for AI course (106393) offered in Spring 2021 at PafKiet. The description is that:
+   -  dnvp
 
 ## Approach ##
 This repository contains assignments and project submitted to DM course offered in Fall 2020 at PafKiet.
