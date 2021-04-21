@@ -45,7 +45,16 @@ There could be different approaches to achieve onething that:
    - Check Score, Take Screenshot and attached.
 
 ## Problem Faces ##
-There are some problems faced by me and my group which were:
-   -
+### In Training Data ###
+   - In training data we have 784 columns which is a huge number of columns for training, so mainly we have to transform those 784 columns so they could be reduced and used for prediction. Then firstly Linear Regression gives less accuracy so I also used some other like SVM and Naive Bayes but the best accuracy we obtained was from SVM. This was a bit challenging task.
+### In Testing Data ###
+   - Same transformation which I applied to training data, also applied to testing data then make prediction using SVM. Also for submitting to kaggle formating of inde was necessary as the index starts from 1 in sample submission file. So I make a dataframe with ImageId and Label in which ImageId starts from 1 till the length of predicted data.
 ## References ##
-This repository contains assignments and project submitted to DM course offered in Fall 2020 at PafKiet.
+### For Models ###
+- https://scikit-learn.org/stable/
+- May Be any help from other resources.
+### For Feature Selection ###
+   - I am learning Data Science from Frontier Technology Institute.
+   - From there I was able t know that there are feature selection techniques like Chi Square, SelectKBest etc.
+   - So I applied SelectKBest using the learning from Frontier Technology Institute.
+
