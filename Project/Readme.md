@@ -12,6 +12,8 @@ This folder in AI-393 Repository contains the complete Project with its working 
   - Link to the competition: https://www.kaggle.com/c/digit-recognizer
 Our aim was to achieve maximum accuracy as much as we can and then check kaggle score by submitting in correct format(provided in sample_submission.csv).
 
+Note : This was a classification scenrio in which we need to classify 1-9 numbers (9 different classes) on the basis of its given pixels.
+
 ## Approach ##
 We tried different approaches on this project.
 ### Approach 01 ###
@@ -63,10 +65,10 @@ There are 4 types of Machine Learning Models Used In This Project.
    - Approach which I applied to training data, also applied to testing data then make prediction using SVM with 3x3 incermental filter. Also for submitting to kaggle formating of index was necessary as the index starts from 1 in sample submission file. So I make a dataframe with ImageId and Label in which ImageId starts from 1 till the length of predicted data.
 
 ## References ##
-For Machine Learning Models : https://scikit-learn.org/stable/
-For Convolution : 
-1) https://medium.com/analytics-vidhya/2d-convolution-using-python-numpy-43442ff5f381 (For Understanding)
-2) https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html (For Working on Project)
-For DataFrame Working : https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
-For Array Working (Some Help Taken) : https://numpy.org/doc/stable/user/basics.creation.html
-Maybe Any Other website while traversing over the internet also.
+  - For Machine Learning Models : https://scikit-learn.org/stable/
+  - For Convolution : 
+    - 1) https://medium.com/analytics-vidhya/2d-convolution-using-python-numpy-43442ff5f381 (For Understanding)
+    - 2) https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve2d.html (For Working on Project)
+  - For DataFrame Working : https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
+  - For Array Working (Some Help Taken) : https://numpy.org/doc/stable/user/basics.creation.html
+  - Maybe Any Other website while traversing over the internet also.
