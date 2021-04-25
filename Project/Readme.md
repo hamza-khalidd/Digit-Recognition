@@ -21,6 +21,11 @@ We tried different approaches on this project.
   - Same thing we done for testing data we select those 500 columns from testing data which were provided by SelectKBest.
   - Then make predictions on testing data and make a dataframe with correct format, then save into csv and make submission on kaggle.
 #### Approach 03 ####
+  - This is the approach which I used in Project.
+  - In this approach I worked on Convolution of 4 different types 3x3, 5x5, 7x7, 9x9 with two types of filters Normal filter and Incremental filter.
+  ##### Convolution #####
+  Convolution is a type of Image filter which works on Pixels of an Image to compress its pixels using a matrix.
+    - I used convolution in a way like first import data then convert into 1d array then in a loop convert each image in data to 2d array, apply convolution of different types 3x3, 5x5, 7x7, 9x9 and  using filters get the desired reduced data,then I flatten the data and save into dataframe.
 
 ### Problems ###
 This repository contains project which will be submitted for AI course (106393) offered in Spring 2021 at PafKiet.
