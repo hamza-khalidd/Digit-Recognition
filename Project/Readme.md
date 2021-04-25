@@ -67,7 +67,7 @@ The best accuracy was using SVM on any approach.
   - All the above scores are achieved by using 3x3 Convolution.
   #### SVM Classfier ####
     - SVM is a widely used SUpervised Machine Learning technique used for both classification and regression problems.
-    - SVM kernel : Kernels is SVM are set of mathematical functions. There are many different Kernels in SVM. We used 'rbf' (Radial Basis Function) which works when we have no prior knowledge about the given data. By default its also 'rbf' if we dont set kernel parameter to any other kernel while Initialzing.
+    - SVM kernel : Kernels is SVM are set of mathematical functions. There are many different Kernels in SVM. We used 'rbf' (Radial Basis Function) which works when we have no prior knowledge about the given data. By default its also 'rbf' if we dont set kernel parameter to any other kernel while Initializing.
     - C Parameter is a Regularization parameter. It is a hypermeter which is set before training the model and is used to control error. By default its 1.
 
 ## Problems ##
