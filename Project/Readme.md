@@ -49,7 +49,7 @@ I used this in a way like:
   - Flatten the array
   - Save into dataframe using transpose.
   - In Convolution filter works as a matrix an traverse to the 2d array and reduced the data.
-  - 
+  
 ## Which Machine Learning Models Used ? ##
 There are 4 types of Machine Learning Models Used In This Project.
   - SVM : This gives us best accuracy among all others in each approach with or without tuned parameters. This technique is used for Classification, Regression and Outliers Detection. This is capable of performing multi-class classification done here. 
