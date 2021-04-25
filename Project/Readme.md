@@ -31,6 +31,10 @@ We tried different approaches on this project.
   - After applying ML models I checked which gives best accuracy.
   - Best accuracy was of SVM on 3x3 Incremental / Normal Filter of 98.20238095238095
   - Than I used this ML model and filter for testing data to make predictions and upload it on kaggle by formatting the dataframe and save into csv file.
+### Any Other Approach ? ###
+  - Yes, while I was traversing over the internet so seen many blogs of this that best things for working on images is using Keras and Tensorflow (Deep Learning Libraries).
+  - This problem might be solved using CNN (Convolutional Neural Networks) by making convolutional layers.
+  - This may lead us to 100% Accuracy score on Kaggle.
 
 ## How I Used Convolution ? ##
 Convolution is a type of Image filter which works on Pixels of an Image to compress its pixels using a matrix.
@@ -53,6 +57,19 @@ There are 4 types of Machine Learning Models Used In This Project.
   - Decision Tree : This gives us third highest accuracy after SVM and KNN. This method is used for Classification and Regression. This works in the way that predicts a target value by some simple rules which raised from data features.
   - Multinomial Naive Bayes : This is the 4th model I used and gives lowest accuracy among all other models used.
 
+## Best Accuracy ##
+The best accuracy was using SVM on any approach.
+  - If we any one approach and apply different ML Models on it, SVM gives us the highest accuracy.
+  - In our case, Digit Recognizer Data we used convolution with ML models so we came at this point that SVM is the one of the best Models and we achieved hightest accuracy on SVM using 3x3 Conovlution on the data with Incremental Filter (Normal and Incremental Gives Same Accuracy).
+  - Accuracy Score Is : 0.982024 (On Training Data)
+  - Kaggle Score Is : 0.98157 (Prediction on Testing Data)
+  - Cross Validation Mean Score : 0.972321 (On Training Data)
+  - All the above scores are achieved by using 3x3 Convolution.
+  #### SVM Classfier ####
+    - SVM is a widely used SUpervised Machine Learning technique used for both classification and regression problems.
+    - SVM kernel : Kernels is SVM are set of mathematical functions. There are many different Kernels in SVM. We used 'rbf' (Radial Basis Function) which works when we have no prior knowledge about the given data. By default its also 'rbf' if we dont set kernel parameter to any other kernel while Initialzing.
+    - C Parameter is a Regularization parameter. It is a hypermeter which is set before training the model and is used to control error. By default its 1.
+
 ## Problems ##
 ### In Training Data ###
    - In training data we have 784 columns which is a huge number of columns for training, so mainly we have to transform those 784 columns so they could be reduced and used for prediction. Then firstly Linear Regression gives less accuracy so I also used some other like SVM, Naive Bayes, KNN and Decision Tree but the best accuracy we obtained was from SVM. This was a bit challenging task. 
@@ -72,3 +89,4 @@ There are 4 types of Machine Learning Models Used In This Project.
   - For DataFrame Working : https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
   - For Array Working (Some Help Taken) : https://numpy.org/doc/stable/user/basics.creation.html
   - Maybe Any Other website while traversing over the internet also.
+  - For Study about SVM Kernel : https://data-flair.training/blogs/svm-kernel-functions/
