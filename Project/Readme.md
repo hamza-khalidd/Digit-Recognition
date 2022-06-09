@@ -1,12 +1,5 @@
 ## AI 106393 Spring 2021: Course Repository ##
 
-## PROJECT MEMBERS ##
-StdID | Name
------------- | -------------
-**64170** | **Hamza Khalid**
-62210 | Muhammad Daniyal
-61447 | Saad Khan
-
 ## Description ##
 This folder in AI-393 Repository contains the complete Project with its working attached via Jupyter Notebook. The project was to make submission for Digit Recognizer Competition on Kaggle and try to achieve maximum accuracy.
   - Link to the competition: https://www.kaggle.com/c/digit-recognizer
