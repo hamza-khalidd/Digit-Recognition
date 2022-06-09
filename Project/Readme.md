@@ -1,4 +1,4 @@
-## AI 106393 Spring 2021: Course Repository ##
+## Digit Recognition Kaggle Competition ##
 
 ## Description ##
 This folder in AI-393 Repository contains the complete Project with its working attached via Jupyter Notebook. The project was to make submission for Digit Recognizer Competition on Kaggle and try to achieve maximum accuracy.
